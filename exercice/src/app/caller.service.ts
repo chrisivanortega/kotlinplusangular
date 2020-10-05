@@ -10,7 +10,7 @@ export class CallerService {
 
   constructor(private _http: HttpClient) { }
 
-  springboot = 'http://192.168.100.150:8080'
+  springboot = 'http://ec2-52-53-184-100.us-west-1.compute.amazonaws.com:8080'
 
   getUsers() {
     /* calling the api to get users */    
